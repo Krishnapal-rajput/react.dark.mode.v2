@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #000;
+  background: #fff;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+}
+
+body.dark {
+  color: #fff;
+  background: #000;
+}
+
+.btn {
+  cursor: pointer;
+  scale: 1;
+}
+
+.btn:hover {
+  border: 1px solid #ff0;
+  scale: 1.1;
+}
+/*# sourceMappingURL=index.c41b5a0e.css.map */
