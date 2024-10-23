@@ -14,7 +14,7 @@ export default function App() {
             document.body.classList.remove("dark")
             localStorage.setItem("darkTheme", "light")
         }
-    })
+    }, [darkTheme])
 
     const changeTheme = () => {
         setDarkTheme(prev=>!prev)
